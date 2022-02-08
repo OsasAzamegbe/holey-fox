@@ -1,17 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
 import Icon from './Icon';
+import { useState } from 'react';
 
 function App() {
-  const handleDoubleClick = (e) => {
-    console.log(e)
+  const handleMouseEnter = () => {
+    setHovered(true);
   }
+  const handleMouseLeave = () => { 
+    setHovered(false);
+  }
+  const handleClick = () => { 
+    
+  }
+  const [hovered, setHovered] = useState(false);
   return (
     <div className="App">
       <header className="App-header">
-        <div onDoubleClick={handleDoubleClick}>
-          {/* <img src={logo} className="App-logo" alt="logo" /> */}
-          <Icon />
+        <div
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+          onClick={handleClick}
+          className="hover"
+        >
+          <Icon hovered={hovered}/>
           <p>untitled</p>
           </div>
       </header>
