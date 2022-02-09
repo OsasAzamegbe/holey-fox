@@ -37,7 +37,9 @@ function App() {
         <meta name="twitter:url" content="https://www.holeyfox.co/"/>
         <meta name="twitter:title" content="f0x"/>
         <meta name="twitter:description" content="this be the sandbox."/>
-        <meta name="twitter:image" content={Fox}/>
+        <meta name="twitter:image" content={Fox} />
+        <meta content="@thevunderkind" name="twitter:site" />
+        <meta content="@thevunderkind" name="twitter:creator"/>
       </Helmet>
       <header className="App-header">
         <div
