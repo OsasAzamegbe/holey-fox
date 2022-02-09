@@ -33,11 +33,11 @@ function App() {
         <meta property="og:description" content="this be the sandbox."/>
         <meta property="og:image" content={Fox}/>
 
-        <meta property="twitter:card" content="summary_large_image"/>
-        <meta property="twitter:url" content="https://www.holeyfox.co/"/>
-        <meta property="twitter:title" content="f0x"/>
-        <meta property="twitter:description" content="this be the sandbox."/>
-        <meta property="twitter:image" content={Fox}/>
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:url" content="https://www.holeyfox.co/"/>
+        <meta name="twitter:title" content="f0x"/>
+        <meta name="twitter:description" content="this be the sandbox."/>
+        <meta name="twitter:image" content={Fox}/>
       </Helmet>
       <header className="App-header">
         <div
