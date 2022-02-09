@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+* {
+    box-sizing: border-box;
+}
+.Arrows {
+    width: 100vw;
+    padding: 20px;
+    min-height: 100vh;
+    margin: 0 auto;
+    font-size: 1.5em;
+    background: black;
+    color: white;
+}
+
+h2 {
+    font-size: 20px;
+    padding-left: 8px;
+}
+
+.foxy-nav {
+    display: flex;
+    align-items: center;
+}
+
+.foxy-nav:hover {
+    cursor: pointer;
+}
+
+p {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 0.7em;
+    line-height: 1.3;
+    padding: 10px 0 10px 10px;
+}
+
+h1 {
+    font-family: 'Major Mono Display', monospace;
+    font-size:1em;
+    padding: 10px 0 10px 10px;
+}
+
+.paragraphs {
+    width: 40%;
+}
+
+@media screen and (max-width: 1100px) {
+    .paragraphs {
+        width: 100%;
+        font-size: 0.9em;
+    }
+}
