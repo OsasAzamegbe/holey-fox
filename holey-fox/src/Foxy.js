@@ -16,8 +16,8 @@ function Foxy() {
             </div>
             <div className="paragraphs">
                 <p>the impact of our ideas manifest in the tangible expression of our work.</p>
-                <p>in the last handful of years, i've embarked on a journey of self-improvement, craftmanship and creative expression through contemporary mediums</p>
-                <p>i am by no means halfway done with this journey, but the time has come to put brush to the metaphorical canvas and start creating.</p>
+                <p>in the last handful of years, i've embarked on a journey of self-improvement, craftmanship and creative expression through contemporary tools.</p>
+                <p>i am by no means halfway done with this journey, but now i must put brush to the metaphorical canvas and start creating.</p>
                 <p>holey fox is the canvas. reified expression will follow shortly.</p>
                 <p>the time has come.</p>
                 <p>
