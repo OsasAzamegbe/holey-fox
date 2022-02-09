@@ -29,7 +29,7 @@ function App() {
           className="hover"
         >
           <Icon hovered={hovered}/>
-          <p>untitled</p>
+          <h3 className="app-p">untitled</h3>
           </div>
       </header>
     </div>

@@ -1,7 +1,7 @@
+
 .App {
   text-align: center;
 }
-
 .App-logo {
   width: 4em;
   margin: 0;
@@ -24,7 +24,7 @@
   padding: 0;
 }
 
-.App-logo:hover, p {
+.App-logo:hover, .app-p {
   cursor: pointer;
 }
 
@@ -32,8 +32,8 @@
   height: 5000px;
 }
 
-p {
-  margin-top: 5px;
+.app-p {
+  margin: 0;
   font-size: calc(10px + 1vmin);
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
