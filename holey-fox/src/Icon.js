@@ -31,13 +31,13 @@ function Icon({hovered}) {
               initial="hidden"
               animate={hovered? "visible": "hidden"}
           >
-            <path fill="#000" d="M90 35l26.847 83.25H63.153L90 35z"></path>
+            <path fill="#944a2b" d="M90 35l26.847 83.25H63.153L90 35z"></path>
             <path
-                fill="#252423"
+                fill="#db6837"
                 d="M81.084 17.223L59.94 0v33.011L47 45.131l27.3 18.34L87.395 85h5.681l12.782-21.53L133 45.132l-12.939-12.12V.957L98.916 18.02l-17.832-.798z"
             ></path>
             <path
-                fill="#FFF386"
+                fill="#FFF"
                 d="M78.5 44l7.361-6.75H71.14L78.5 44zM100.5 44l7.361-6.75H93.139L100.5 44z"
                     ></path>
         </motion.g>
