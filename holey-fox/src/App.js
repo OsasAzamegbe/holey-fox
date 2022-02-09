@@ -1,9 +1,7 @@
 import './App.css';
-import Fox from './assets/fox.png';
 import Icon from './Icon';
 import { useState } from 'react';
 import { useNavigate } from "react-router-dom";
-import {Helmet} from "react-helmet";
 
 function App() {
   let navigate = useNavigate();
@@ -23,24 +21,6 @@ function App() {
   const [hovered, setHovered] = useState(false);
   return (
     <div className="App">
-      <Helmet>
-        <title>f0x</title>
-        <meta name="title" content="f0x"></meta>
-        <meta name="description" content="this be the sandbox."/>
-        <meta property="og:type" content="website"/>
-        <meta property="og:url" content="https://www.holeyfox.co/"/>
-        <meta property="og:title" content="f0x"/>
-        <meta property="og:description" content="this be the sandbox."/>
-        <meta property="og:image" content={Fox}/>
-
-        <meta name="twitter:card" content="summary_large_image"/>
-        <meta name="twitter:url" content="https://www.holeyfox.co/"/>
-        <meta name="twitter:title" content="f0x"/>
-        <meta name="twitter:description" content="this be the sandbox."/>
-        <meta name="twitter:image" content={Fox} />
-        <meta content="@thevunderkind" name="twitter:site" />
-        <meta content="@thevunderkind" name="twitter:creator"/>
-      </Helmet>
       <header className="App-header">
         <div
           onMouseEnter={handleMouseEnter}
