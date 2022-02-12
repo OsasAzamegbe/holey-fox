@@ -29,7 +29,7 @@ function App() {
           className="hover"
         >
           <Icon hovered={hovered}/>
-          <h3 className="app-p">untitled</h3>
+          <h3 className="app-p">untitled folder</h3>
           </div>
       </header>
     </div>
